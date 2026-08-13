@@ -7,7 +7,7 @@ description: >-
 
 # Site settings
 url: https://grilledgames.github.io
-baseurl: ""
+baseurl: /grilled-games-website
 timezone: UTC
 
 # Build settings
