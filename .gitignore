@@ -1,0 +1,5 @@
+# Ignore Jekyll build artifacts
+_jekyll/
+_site/
+*.gemspec
+.gitattributes

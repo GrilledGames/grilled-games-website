@@ -1,0 +1,12 @@
+---
+layout: default
+title: Home
+---
+<section class="hero">
+  <h1>{{ site.title }}</h1>
+  <p class="tagline">{{ site.tagline }}</p>
+
+  {% for game in site.data.games %}
+    {% include game-card.liquid game=game %}
+  {% endfor %}
+</section>

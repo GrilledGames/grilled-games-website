@@ -1,0 +1,13 @@
+- slug: pixel-adventure
+  title: Pixel Adventure
+  description: A retro-style platformer with tight controls and nostalgic charm.
+  image: /assets/img/pixel-adventure.png
+  stripe_url: https://buy.stripe.com/test_placeholder
+  release_year: 2026
+
+- slug: cosmic-rally
+  title: Cosmic Rally
+  description: High-speed racing through the cosmos with dynamic track generation.
+  image: /assets/img/cosmic-rally.png
+  stripe_url: https://buy.stripe.com/test_placeholder
+  release_year: 2025

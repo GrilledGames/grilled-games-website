@@ -1,0 +1,18 @@
+<footer class="site-footer">
+  <div class="social-links">
+    {% if site.social_links.twitter %}
+      <a href="{{ site.social_links.twitter }}" target="_blank" rel="noopener" aria-label="Follow us on Twitter">Twitter</a>
+    {% endif %}
+    {% if site.social_links.youtube %}
+      <a href="{{ site.social_links.youtube }}" target="_blank" rel="noopener" aria-label="Visit our YouTube channel">YouTube</a>
+    {% endif %}
+    {% if site.social_links.discord %}
+      <a href="{{ site.social_links.discord }}" target="_blank" rel="noopener" aria-label="Join our Discord community">Discord</a>
+    {% endif %}
+    {% if site.social_links.instagram %}
+      <a href="{{ site.social_links.instagram }}" target="_blank" rel="noopener" aria-label="Follow us on Instagram">Instagram</a>
+    {% endif %}
+  </div>
+
+  <p class="copyright">&copy; {{ site.title }} — All rights reserved.</p>
+</footer>

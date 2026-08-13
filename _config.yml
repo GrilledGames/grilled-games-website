@@ -1,0 +1,28 @@
+title: Grilled Games
+tagline: A video game studio passionate about crafting memorable experiences.
+email: hello@grilledgames.com
+description: >-
+  Welcome to Grilled Games — a small but mighty video game studio.
+  We create fun, engaging games that bring joy and excitement.
+
+# Site settings
+url: https://grilled-games.github.io
+baseurl: ""
+timezone: UTC
+
+# Build settings
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+# Plugins (Jekyll built-in)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections for blog posts
+collections:
+  posts:
+    output: true
+    permalink: /blog/:path/
