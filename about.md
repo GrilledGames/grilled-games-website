@@ -6,16 +6,16 @@ permalink: /about/
 
 # About Grilled Games
 
-We're a small video game studio passionate about crafting memorable experiences. Our games are designed to bring joy, excitement, and nostalgia to players of all ages.
+Grilled Games is made by gamers, for gamers. Grilled Games was founded by four friends whose friendship has been grounded in gaming since middle school. That's why every game we make is made with our three core beliefs in mind.
 
-## Our Story
+## Core #1 - Fun
 
-Grilled Games was founded with the belief that great games don't need massive budgets — just creativity, passion, and tight design. We focus on polished gameplay, charming art styles, and music that sticks with you long after you've put down the controller.
+We focus on what’s important. Our games are designed to be high in quality and high in fun, making sure that the user experience is prioritized above everything else. The game isn’t done until you’re having fun.
 
-## What We Make
+## Core #2 - Physical
 
-We create retro-inspired games that celebrate the golden age of gaming while pushing forward with modern touches. Our physical thumb drives are our signature — a nod to the cartridge days when games were tangible treasures you'd take home from a store.
+We believe in the customer’s right to ownership. That’s why we promise the option of having physical delivery for every game we produce to users in the continental United States. This way, nobody can take away ownership of a product that you have purchased- ever.
 
-## Get in Touch
+## Core #3 - Finished
 
-{{ site.email }}
+Modern gaming has become saturated with products in years of Early Access and filled with critical Day 1 patches for game-breaking issues. Grilled Games promises that we will never deliver a product unless it’s ready for you to eat- nobody wants to send their food back to the kitchen.
