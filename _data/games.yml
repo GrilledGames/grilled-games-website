@@ -2,5 +2,7 @@
   title: Teapot Spinner
   description: Dizzy yourself in Teapot Spinner, a brand new idle game! Spin your teapot! Buy upgrades! Customize your teapot! Time travel?! Spin even more!
   image: /assets/img/teapot-spinner.png
-  stripe_url: https://buy.stripe.com/9B66oA2UngIB63t1OTdQQ00
+  stripe_url_physical: https://buy.stripe.com/9B66oA2UngIB63t1OTdQQ00
+  stripe_url_bundle: https://buy.stripe.com/9B66oA2UngIB63t1OTdQQ00
+  stripe_url_steam: https://store.steampowered.com/teapot-spinner
   release_year: 2025
