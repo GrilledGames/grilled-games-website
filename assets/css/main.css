@@ -221,6 +221,55 @@ body {
   font-size: 0.85rem;
 }
 
+/* === Recent News Section === */
+.recent-news {
+  padding: 2rem 0;
+}
+
+.recent-news h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.news-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.news-item time {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.news-item a {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  margin-top: 0.25rem;
+  transition: color 0.2s ease;
+}
+
+.news-item a:hover {
+  color: var(--accent-color);
+}
+
+.news-item p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+/* === Featured Game Section === */
+.featured-game {
+  padding: 2rem 0;
+}
+
+.featured-game h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 /* === Responsive === */
 @media (max-width: 768px) {
   .nav-links { gap: 1rem; }
