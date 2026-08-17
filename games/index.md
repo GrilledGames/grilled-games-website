@@ -10,7 +10,15 @@ We've crafted a collection of games that we're proud to share with the world. Ea
 
 <div class="games-grid">
   {% for game in site.data.games %}
-    {% include game-card.liquid game=game %}
+    <div class="game-card">
+      <img src="{{ game.image | relative_url }}" alt="{{ game.title }}">
+      <h3>{{ game.title }}</h3>
+      <p>{{ game.description }}</p>
+      <div class="buy-buttons">
+        <a href="{{ game.stripe_url_physical }}" class="buy-button" target="_blank" rel="noopener">Physical Edition</a>
+        <a href="{{ game.stripe_url_steam }}" class="buy-button" target="_blank" rel="noopener">Steam</a>
+      </div>
+    </div>
   {% endfor %}
 </div>
 

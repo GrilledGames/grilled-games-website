@@ -172,13 +172,6 @@ body {
   opacity: 0.85;
 }
 
-.buy-button.bundle {
-  background-color: #7c3aed;
-}
-
-.buy-button.steam {
-  background-color: #1b2a4a;
-}
 
 /* === Blog Posts List === */
 .post-list article {
