@@ -11,7 +11,7 @@ News, updates, and stories from the Grilled Games studio.
 <div class="post-list">
   {% for post in site.posts %}
     <article>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
       <time datetime="{{ post.date | date_to_iso }}">{{ post.date | date: "%B %d, %Y" }}</time>
       {{ post.excerpt }}
     </article>
