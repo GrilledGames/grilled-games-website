@@ -8,19 +8,6 @@ title: Home
   <p class="tagline">{{ site.tagline }}</p>
 </section>
 
-{% if site.posts %}
-<section class="recent-news">
-  <h2>Recent News</h2>
-  {% for post in site.posts limit:3 %}
-    <article class="news-item">
-      <time>{{ post.date | date: "%B %d, %Y" }}</time>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-    </article>
-  {% endfor %}
-</section>
-{% endif %}
-
 <section class="featured-game">
   {% assign game = site.data.games[0] %}
   <div class="game-card featured">

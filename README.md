@@ -13,19 +13,6 @@ A static website built with Jekyll, hosted on GitHub Pages.
 jekyll serve
 ```
 
-### Adding a Blog Post
-Create a new file in `_posts/` with the format `YYYY-MM-DD-title.md`:
-```markdown
----
-title: "Your Title"
-date: YYYY-MM-DD
-categories: news
-tags: [tag1, tag2]
----
-
-Content here...
-```
-
 ### Adding Games
 Edit `_data/games.yml` to add or modify games. Each entry needs:
 - `slug`: unique identifier
@@ -42,5 +29,4 @@ This site is configured for GitHub Pages. Push to the main branch and GitHub wil
 
 - **Dark mode toggle**: Click the sun/moon icon in the header to switch between light and dark themes. Your preference is saved in localStorage.
 - **Responsive design**: Works on desktop, tablet, and mobile devices.
-- **Blog**: Powered by Jekyll's built-in blog functionality.
 - **Store**: Physical thumb drives with games, linked via Stripe checkout.
