@@ -1,13 +1,13 @@
 title: Grilled Games
 tagline: A video game studio passionate about crafting memorable experiences.
-email: hello@grilledgames.com
+email: business@grilledgames.com
 description: >-
   Welcome to Grilled Games — a small but mighty video game studio.
   We create fun, engaging games that bring joy and excitement.
 
 # Site settings
 url: grilledgames.com
-baseurl: /grilled-games-website
+baseurl: /
 timezone: UTC
 
 # Build settings
