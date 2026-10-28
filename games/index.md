@@ -6,8 +6,6 @@ permalink: /games/
 
 # Our Games
 
-We've crafted a collection of games that we're proud to share with the world. Each one is built with love, care, and a deep respect for the medium.
-
 <div class="games-grid">
   {% for game in site.data.games %}
     <div class="game-card">
