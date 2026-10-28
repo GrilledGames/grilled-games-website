@@ -15,6 +15,7 @@ title: Home
     <h3>{{ game.title }}</h3>
     <p>{{ game.description }}</p>
     <div class="buy-buttons">
+      <a href="{{ game.stripe_url_bundle }}" class="buy-button" target="_blank" rel="noopener">Physical Edition + Steam Key</a>
       <a href="{{ game.stripe_url_physical }}" class="buy-button" target="_blank" rel="noopener">Physical Edition</a>
       <a href="{{ game.stripe_url_steam }}" class="buy-button" target="_blank" rel="noopener">Steam</a>
     </div>
